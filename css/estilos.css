@@ -356,6 +356,50 @@ Header
 }
 
 /* Contacto */
+form p{
+    font-size: 1.6rem;
+    color: #333333;
+}
+legend{
+    font-size: 2.4rem;
+    color: #333333;
+}
 label{
+    font-weight: 700;
+    text-transform: uppercase;
     display: block;
+}
+
+
+/*De esta aplico el estilo a todas mi etiquetas excepto a
+la etiqueta submit*/
+input:not([type="submit"]){
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border:none;
+}
+input[type="radio"]{
+    width: auto;
+    margin: 0;
+}
+select{
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+textarea{
+    height: 20rem;
+}
+
+.forma-contacto{
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.boton:hover{
+    cursor: pointer;
 }
